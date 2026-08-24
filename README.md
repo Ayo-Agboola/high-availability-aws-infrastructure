@@ -586,6 +586,7 @@ Possible improvements include:
 high-availability-aws-infrastructure/
 │
 ├── architecture/
+│   └── architecture diagram and related files
 │
 ├── screenshots/
 │   ├── 01-networking/
@@ -598,6 +599,8 @@ high-availability-aws-infrastructure/
 │   └── 08-monitoring-alerts/
 │
 ├── scripts/
+│   ├── jump-server/
+│   └── datadog/
 │
 ├── LICENSE
 └── README.md
