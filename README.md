@@ -2,7 +2,7 @@
 
 ### Building a scalable, highly available web infrastructure on AWS with monitoring and alerting
 
-**Author:** Ayomide Agboola
+**Author:** Ayomide Emmanuel Agboola
 **Role:** Data Analyst | Analytics Trainer | Cloud & DevOps Learner
 **Location:** Nigeria
 
@@ -606,7 +606,7 @@ high-availability-aws-infrastructure/
 
 ## Author
 
-**Ayomide Agboola**
+**Ayomide Emmanuel Agboola**
 
 Data Analyst | Analytics Trainer | Cloud & DevOps Learner
 
