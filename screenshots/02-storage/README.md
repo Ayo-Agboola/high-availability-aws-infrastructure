@@ -14,13 +14,13 @@ The EFS filesystem was created to provide shared storage for the application.
 
 The filesystem ID identifies the EFS resource created for the project. This ID was also required when configuring the EC2 instances to mount the filesystem.
 
-![EFS Filesystem ID](filesystem-id.png)
+![EFS Filesystem ID](filesystem%20ID.png)
 
 ## 03. Mount Targets
 
 Mount targets were configured so that resources within the VPC could connect to the EFS filesystem.
 
-![EFS Mount Targets](mount-targets.png)
+![EFS Mount Targets](mount%20targets.png)
 
 The mount targets allow the filesystem to be accessed from the Availability Zones used by the infrastructure.
 
