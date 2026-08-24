@@ -53,4 +53,3 @@ The completed networking layer provided:
 * Private subnet outbound connectivity through NAT.
 * Traffic routing through route tables.
 * Security controls through Security Groups.
-
