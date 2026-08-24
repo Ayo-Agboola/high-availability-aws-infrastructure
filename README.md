@@ -582,28 +582,26 @@ Possible improvements include:
 
 # Repository Structure
 
-```text
-high-availability-aws-infrastructure/
-│
-├── architecture/
-│   └── architecture diagram and related files
-│
-├── screenshots/
-│   ├── 01-networking/
-│   ├── 02-storage/
-│   ├── 03-compute/
-│   ├── 04-auto-scaling/
-│   ├── 05-load-balancer/
-│   ├── 06-domain-dns/
-│   ├── 07-https/
-│   └── 08-monitoring-alerts/
-│
-├── scripts/
-│   ├── jump-server/
-│   └── datadog/
-│
-├── LICENSE
-└── README.md
+```mermaid
+mindmap
+  root((high-availability-aws-infrastructure))
+    architecture
+      Architecture diagram
+      Related files
+    screenshots
+      01-networking
+      02-storage
+      03-compute
+      04-auto-scaling
+      05-load-balancer
+      06-domain-dns
+      07-https
+      08-monitoring-alerts
+    scripts
+      jump-server
+      datadog
+    LICENSE
+    README.md
 ```
 
 
