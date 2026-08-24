@@ -5,7 +5,7 @@ Auto Scaling was introduced to make the web application more resilient and scala
 Instead of relying on a fixed number of manually created servers, an Auto Scaling Group was configured to manage the application instances.
 
 ## Launch Template
-
+![Launch Template](launch-template.png)
 The Launch Template defines how new web server instances should be created.
 
 It provides the configuration that an instance needs when it is launched as part of the Auto Scaling Group.
@@ -13,7 +13,7 @@ It provides the configuration that an instance needs when it is launched as part
 This makes it possible to create consistent application servers rather than configuring every new server manually.
 
 ## Auto Scaling Group
-
+![Auto Scaling Group](auto-scaling-group.png)
 The Auto Scaling Group manages the EC2 instances used by the web application.
 
 It maintains the required number of instances and can replace an unhealthy instance when necessary.
@@ -21,7 +21,7 @@ It maintains the required number of instances and can replace an unhealthy insta
 The instances are distributed across the Availability Zones configured for the application environment.
 
 ## High Availability
-
+![Auto Scaling Instances](asg-instances.png)
 Running the application across multiple Availability Zones reduces dependence on a single EC2 instance or Availability Zone.
 
 If one application instance becomes unavailable, the remaining instances can continue serving requests while the Auto Scaling Group works to maintain the required capacity.
