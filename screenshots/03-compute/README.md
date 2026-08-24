@@ -5,7 +5,7 @@ Amazon EC2 provided the compute layer for the web application.
 The project used a Jump Server and application servers to separate administrative access from the application environment.
 
 ## Jump Server
-
+![Jump Server](jump-server.png)
 The Jump Server was created as an administrative entry point into the infrastructure.
 
 Its purpose was to provide controlled access to resources that were not directly exposed to the public internet.
@@ -13,7 +13,7 @@ Its purpose was to provide controlled access to resources that were not directly
 The Jump Server was configured separately from the application servers and was used as part of the project's secure network design.
 
 ## Web Servers
-
+![EC2 Instances](ec2-instances.png)
 EC2 instances were used to host the web application.
 
 Nginx was installed on the web servers and configured to serve the website from the shared EFS filesystem.
